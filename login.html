@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+function validateForm() {
+    var x = document.forms["myForm"]["username"].value;
+     var y = document.forms["myForm"]["password"].value;
+    if (x == "")
+     {
+        
+        
+        if(y =="")
+        
+        alert("Name must be filled out");
+        
+        return false;
+        }
+        else
+        alert("kdajk");
+    }
+    </style>
+    </head>
+<title> Log in page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<div class="loginbox">
+<img src="avtar.png" class="avtar">
+<h1>Login here</h1>
+<form name="myForm"onsubmit="return validateForm()" method="post">
+<p>Username</p>
+<input type="text" required name= "username"  placeholder="Enter Username " id="username" >
+<p>Password</p>
+<input type="text" required name= "password"  placeholder="Enter Password" id="password">
+<input type="submit" value="Login" onclick="alert(shd)">
+<a href="sahul.html">Lost your password?</a><br>
+ <a href="deep.html">Dont have account?</a>
+ <br>
+</form>
+</div>
+
+</body>
+</html>
